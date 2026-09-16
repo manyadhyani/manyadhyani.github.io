@@ -11,7 +11,7 @@ baseurl:
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Manya Dhyani, PhD researcher at Ariel University, studying SiC MOSFET reliability and vertical GaN devices.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -230,6 +230,22 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/plugins.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _posts/
+  - _projects/
+  - _news/
+  - _teachings/
+  - _books/
   - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/
